@@ -46,31 +46,83 @@ Calls are made one after another with short pauses. A `429` from any source stop
 
 ## Example output
 
-`node check.js Dj3WtDk7CRz64URJzmBjARpwBw7J9wwzm6JLdd8j8CaP`
+### A program Trustblock lists: Meta Pool
+
+`node check.js MPSoLoEnfNRFReRZSVH2V8AffSmWSR4dVoBLFm1YpAW` (read 20 Oct 2026). A Squads v4 vault holds the upgrade authority, the build is verified, and Trustblock lists the program on the Meta Pool project, but no published audit names this address in its scope.
 
 ```json
 {
-  "programId": "Dj3WtDk7CRz64URJzmBjARpwBw7J9wwzm6JLdd8j8CaP",
-  "checkedAt": "2026-10-20T20:16:19.000Z",
+  "programId": "MPSoLoEnfNRFReRZSVH2V8AffSmWSR4dVoBLFm1YpAW",
+  "checkedAt": "2026-10-20T20:16:19.433Z",
   "onChain": {
     "rpc": "api.mainnet-beta.solana.com",
     "loader": "BPFLoaderUpgradeable",
     "state": "upgradeable",
     "reason": "upgrade authority set",
-    "upgradeAuthority": "AyVqPRV2ER8M8rzixsAu9tgCTUze5QfhssGCwfDeQ7cQ",
-    "upgradeAuthorityKind": "single key (wallet)",
-    "lastDeploySlot": 273723700,
-    "lastDeployAt": "2024-06-24"
+    "upgradeAuthority": "8MkoyTQDTUcb95MtqenqVWE11rhLvkKERpUFBSwrgePu",
+    "upgradeAuthorityKind": "Squads v4 multisig (vault)",
+    "lastDeploySlot": 435596989,
+    "lastDeployAt": "2026-07-27"
   },
-  "verifiedBuild": { "registry": "OtterSec verified builds (verify.osec.io)", "verified": false, "repo": null, "commit": null, "lastVerifiedAt": null, "message": "On chain program not verified" },
+  "verifiedBuild": {
+    "registry": "OtterSec verified builds (verify.osec.io)",
+    "verified": true,
+    "repo": "https://github.com/Meta-Pool/solana-restaking-aggregator/tree/71675487046ce830d56257650767107c7d7937dd",
+    "commit": "71675487046ce830d56257650767107c7d7937dd",
+    "lastVerifiedAt": "2026-09-25T19:58:49.937017",
+    "message": "On chain program verified"
+  },
   "trustblock": {
     "found": true,
-    "projects": [{ "slug": "russianroulette", "name": "RussianRoulette", "url": "https://app.trustblock.run/project/russianroulette", "auditsOnProject": 1 }],
-    "audits": [{ "project": "russianroulette", "firm": "SolidProof", "date": "2024-06-25", "url": "https://app.trustblock.run/audit/315a19fc-7624-49f6-b2c6-c9a821833279" }],
-    "otherAuditsOnSameProject": 0,
-    "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    "projects": [
+      {
+        "slug": "mpeth",
+        "name": "Meta Pool",
+        "url": "https://app.trustblock.run/project/mpeth",
+        "auditsOnProject": 2
+      }
+    ],
+    "audits": [],
+    "otherAuditsOnSameProject": 2,
+    "note": "The project lists this address, but none of its published audits names it in scope."
   },
-  "deployedAfterLatestAudit": false
+  "deployedAfterLatestAudit": null
+}
+```
+
+### A program Trustblock does not hold: Jupiter
+
+`node check.js JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4` (Jupiter's aggregator, read 20 Oct 2026). The chain and registry reads work for any program; `trustblock.found` is `false` because no project on Trustblock lists this address.
+
+```json
+{
+  "programId": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+  "checkedAt": "2026-10-20T22:31:05.086Z",
+  "onChain": {
+    "rpc": "api.mainnet-beta.solana.com",
+    "loader": "BPFLoaderUpgradeable",
+    "state": "upgradeable",
+    "reason": "upgrade authority set",
+    "upgradeAuthority": "CvQZZ23qYDWF2RUpxYJ8y9K4skmuvYEEjH7fK58jtipQ",
+    "upgradeAuthorityKind": "Squads v3 multisig",
+    "lastDeploySlot": 454465850,
+    "lastDeployAt": "2026-10-08"
+  },
+  "verifiedBuild": {
+    "registry": "OtterSec verified builds (verify.osec.io)",
+    "verified": false,
+    "repo": null,
+    "commit": null,
+    "lastVerifiedAt": null,
+    "message": "On chain program not verified"
+  },
+  "trustblock": {
+    "found": false,
+    "projects": [],
+    "audits": [],
+    "note": "No project on Trustblock lists this address."
+  },
+  "deployedAfterLatestAudit": null
 }
 ```
 
@@ -82,9 +134,11 @@ Calls are made one after another with short pauses. A `429` from any source stop
 - `trustblock.audits`: the audits whose scope on Trustblock lists this exact address. `otherAuditsOnSameProject` counts audits on the same project that do not name it. A project can list a program without any audit naming it.
 - `deployedAfterLatestAudit`: `true` when the last deploy is later than the newest audit that names the program; `null` when no audit names it. It flags that the code on chain may differ from the audited code. It does not prove that it does.
 
-## The seven example programs
+## Programs matched in Trustblock's index today
 
 `examples/seven-programs.json` is the output for the seven programs below, read on 20 Oct 2026. They are the Solana programs that Trustblock found when it matched its stored Solana addresses to executables on mainnet (six are named in a published audit's scope today; the seventh is listed on a project but no audit names it).
+
+Most audited Solana programs are not named by address in their reports yet, so they cannot be matched this way. That is the gap the grant closes.
 
 | Program | Project | State | Authority | Last deploy | Verified build | Audits naming it |
 |---|---|---|---|---|---|---|
@@ -98,7 +152,7 @@ Calls are made one after another with short pauses. A `429` from any source stop
 
 ## Limits, stated plainly
 
-- It reads three public sources and reports what they say today. It does not review code and says nothing on whether a program is safe.
+- It reads three public sources and reports what they say today. It does not review or judge the code.
 - The Trustblock lookup matches by address. An audit that covers a program without listing its address in its scope on Trustblock will not appear here.
 - Authority classification is a best effort: a PDA that is not a Squads or governance account is reported as `program-derived address (other program)`. If the RPC cannot read the authority's history the field says so instead of guessing.
 - Public RPC nodes sometimes fail a history read; the script retries twice and then reports the failure.
@@ -106,6 +160,6 @@ Calls are made one after another with short pauses. A `429` from any source stop
 
 ## Status and licence
 
-Early script, version 0.1. Licence: MIT pending Bilel (no `LICENSE` file yet, so for now all rights are reserved).
+Early script, version 0.1. Licence: MIT, see `LICENSE`.
 
 Questions or corrections: open an issue once the repository is public.

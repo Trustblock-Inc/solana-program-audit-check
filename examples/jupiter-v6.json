@@ -1,0 +1,29 @@
+{
+  "programId": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+  "checkedAt": "2026-10-20T22:31:05.086Z",
+  "onChain": {
+    "rpc": "api.mainnet-beta.solana.com",
+    "loader": "BPFLoaderUpgradeable",
+    "state": "upgradeable",
+    "reason": "upgrade authority set",
+    "upgradeAuthority": "CvQZZ23qYDWF2RUpxYJ8y9K4skmuvYEEjH7fK58jtipQ",
+    "upgradeAuthorityKind": "Squads v3 multisig",
+    "lastDeploySlot": 454465850,
+    "lastDeployAt": "2026-10-08"
+  },
+  "verifiedBuild": {
+    "registry": "OtterSec verified builds (verify.osec.io)",
+    "verified": false,
+    "repo": null,
+    "commit": null,
+    "lastVerifiedAt": null,
+    "message": "On chain program not verified"
+  },
+  "trustblock": {
+    "found": false,
+    "projects": [],
+    "audits": [],
+    "note": "No project on Trustblock lists this address."
+  },
+  "deployedAfterLatestAudit": null
+}
