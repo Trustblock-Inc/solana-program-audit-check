@@ -162,4 +162,4 @@ Most audited Solana programs are not named by address in their reports yet, so t
 
 Early script, version 0.1. Licence: MIT, see `LICENSE`.
 
-Questions or corrections: open an issue once the repository is public.
+Questions or corrections: open an issue.
