@@ -1,0 +1,315 @@
+[
+  {
+    "programId": "5V4rLY8knU8RUFAbrx1G5xAnXyvJP2KCX5AVZ2PmU6VJ",
+    "checkedAt": "2026-10-20T20:14:46.588Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "immutable",
+      "reason": "upgrade authority revoked",
+      "upgradeAuthority": null,
+      "upgradeAuthorityKind": null,
+      "lastDeploySlot": 278045748,
+      "lastDeployAt": "2024-07-17"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": false,
+      "repo": null,
+      "commit": null,
+      "lastVerifiedAt": null,
+      "message": "On chain program not verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "dopameme",
+          "name": "DopaMeme",
+          "url": "https://app.trustblock.run/project/dopameme",
+          "auditsOnProject": 2
+        }
+      ],
+      "audits": [
+        {
+          "project": "dopameme",
+          "firm": "SolidProof",
+          "date": "2024-07-20",
+          "url": "https://app.trustblock.run/audit/1b9bf568-89a6-4c92-b27f-4c1f0fc2b055"
+        }
+      ],
+      "otherAuditsOnSameProject": 1,
+      "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    },
+    "deployedAfterLatestAudit": false
+  },
+  {
+    "programId": "7m9a323Z5fA1SECE9LQdzLMbLHDWKznvM4hm6Sut79E7",
+    "checkedAt": "2026-10-20T20:14:54.168Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "immutable",
+      "reason": "upgrade authority revoked",
+      "upgradeAuthority": null,
+      "upgradeAuthorityKind": null,
+      "lastDeploySlot": 298340244,
+      "lastDeployAt": "2024-10-29"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": false,
+      "repo": null,
+      "commit": null,
+      "lastVerifiedAt": null,
+      "message": "On chain program not verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "boohworld",
+          "name": "Booh World",
+          "url": "https://app.trustblock.run/project/boohworld",
+          "auditsOnProject": 2
+        }
+      ],
+      "audits": [
+        {
+          "project": "boohworld",
+          "firm": "SolidProof",
+          "date": "2024-11-07",
+          "url": "https://app.trustblock.run/audit/c4cc5fbd-011d-4dd4-88bf-eacbe43d1605"
+        }
+      ],
+      "otherAuditsOnSameProject": 1,
+      "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    },
+    "deployedAfterLatestAudit": false
+  },
+  {
+    "programId": "8ofzU3py7NjaamiGV56bGF4cK1itRGHQnuRyP5ra3iCZ",
+    "checkedAt": "2026-10-20T20:15:04.779Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "immutable",
+      "reason": "upgrade authority revoked",
+      "upgradeAuthority": null,
+      "upgradeAuthorityKind": null,
+      "lastDeploySlot": 295810560,
+      "lastDeployAt": "2024-10-15"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": false,
+      "repo": null,
+      "commit": null,
+      "lastVerifiedAt": null,
+      "message": "On chain program not verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "boohworld",
+          "name": "Booh World",
+          "url": "https://app.trustblock.run/project/boohworld",
+          "auditsOnProject": 2
+        }
+      ],
+      "audits": [
+        {
+          "project": "boohworld",
+          "firm": "SolidProof",
+          "date": "2024-11-07",
+          "url": "https://app.trustblock.run/audit/c4cc5fbd-011d-4dd4-88bf-eacbe43d1605"
+        },
+        {
+          "project": "boohworld",
+          "firm": "SolidProof",
+          "date": "2024-09-23",
+          "url": "https://app.trustblock.run/audit/ff2d4d31-853e-4af3-9177-cb11276e98d7"
+        }
+      ],
+      "otherAuditsOnSameProject": 0,
+      "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    },
+    "deployedAfterLatestAudit": false
+  },
+  {
+    "programId": "DKFEeXbLyWHsSs4bexyrNEL4uqH7aHfQukdFasnR2Dvi",
+    "checkedAt": "2026-10-20T20:15:15.114Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "immutable",
+      "reason": "upgrade authority revoked",
+      "upgradeAuthority": null,
+      "upgradeAuthorityKind": null,
+      "lastDeploySlot": 295802464,
+      "lastDeployAt": "2024-10-15"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": false,
+      "repo": null,
+      "commit": null,
+      "lastVerifiedAt": null,
+      "message": "On chain program not verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "boohworld",
+          "name": "Booh World",
+          "url": "https://app.trustblock.run/project/boohworld",
+          "auditsOnProject": 2
+        }
+      ],
+      "audits": [
+        {
+          "project": "boohworld",
+          "firm": "SolidProof",
+          "date": "2024-11-07",
+          "url": "https://app.trustblock.run/audit/c4cc5fbd-011d-4dd4-88bf-eacbe43d1605"
+        },
+        {
+          "project": "boohworld",
+          "firm": "SolidProof",
+          "date": "2024-09-23",
+          "url": "https://app.trustblock.run/audit/ff2d4d31-853e-4af3-9177-cb11276e98d7"
+        }
+      ],
+      "otherAuditsOnSameProject": 0,
+      "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    },
+    "deployedAfterLatestAudit": false
+  },
+  {
+    "programId": "Dj3WtDk7CRz64URJzmBjARpwBw7J9wwzm6JLdd8j8CaP",
+    "checkedAt": "2026-10-20T20:15:25.875Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "upgradeable",
+      "reason": "upgrade authority set",
+      "upgradeAuthority": "AyVqPRV2ER8M8rzixsAu9tgCTUze5QfhssGCwfDeQ7cQ",
+      "upgradeAuthorityKind": "single key (wallet)",
+      "lastDeploySlot": 273723700,
+      "lastDeployAt": "2024-06-24"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": false,
+      "repo": null,
+      "commit": null,
+      "lastVerifiedAt": null,
+      "message": "On chain program not verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "russianroulette",
+          "name": "RussianRoulette",
+          "url": "https://app.trustblock.run/project/russianroulette",
+          "auditsOnProject": 1
+        }
+      ],
+      "audits": [
+        {
+          "project": "russianroulette",
+          "firm": "SolidProof",
+          "date": "2024-06-25",
+          "url": "https://app.trustblock.run/audit/315a19fc-7624-49f6-b2c6-c9a821833279"
+        }
+      ],
+      "otherAuditsOnSameProject": 0,
+      "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    },
+    "deployedAfterLatestAudit": false
+  },
+  {
+    "programId": "MPSoLoEnfNRFReRZSVH2V8AffSmWSR4dVoBLFm1YpAW",
+    "checkedAt": "2026-10-20T20:16:19.433Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "upgradeable",
+      "reason": "upgrade authority set",
+      "upgradeAuthority": "8MkoyTQDTUcb95MtqenqVWE11rhLvkKERpUFBSwrgePu",
+      "upgradeAuthorityKind": "Squads v4 multisig (vault)",
+      "lastDeploySlot": 435596989,
+      "lastDeployAt": "2026-07-27"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": true,
+      "repo": "https://github.com/Meta-Pool/solana-restaking-aggregator/tree/71675487046ce830d56257650767107c7d7937dd",
+      "commit": "71675487046ce830d56257650767107c7d7937dd",
+      "lastVerifiedAt": "2026-09-25T19:58:49.937017",
+      "message": "On chain program verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "mpeth",
+          "name": "Meta Pool",
+          "url": "https://app.trustblock.run/project/mpeth",
+          "auditsOnProject": 2
+        }
+      ],
+      "audits": [],
+      "otherAuditsOnSameProject": 2,
+      "note": "The project lists this address, but none of its published audits names it in scope."
+    },
+    "deployedAfterLatestAudit": null
+  },
+  {
+    "programId": "dexrBFKXSS5Mge5FN8DRRMfsqigjgj2P9ifm38orQRx",
+    "checkedAt": "2026-10-20T20:17:01.886Z",
+    "onChain": {
+      "rpc": "api.mainnet-beta.solana.com",
+      "loader": "BPFLoaderUpgradeable",
+      "state": "upgradeable",
+      "reason": "upgrade authority set",
+      "upgradeAuthority": "EpdDsvU1RcTeEnVA7zgizJyL8o3E6zHpJJAwm13MkhNy",
+      "upgradeAuthorityKind": "Squads v3 multisig",
+      "lastDeploySlot": 271179766,
+      "lastDeployAt": "2024-06-11"
+    },
+    "verifiedBuild": {
+      "registry": "OtterSec verified builds (verify.osec.io)",
+      "verified": false,
+      "repo": null,
+      "commit": null,
+      "lastVerifiedAt": null,
+      "message": "On chain program not verified"
+    },
+    "trustblock": {
+      "found": true,
+      "projects": [
+        {
+          "slug": "bulbaswap",
+          "name": "BulbaSwap",
+          "url": "https://app.trustblock.run/project/bulbaswap",
+          "auditsOnProject": 1
+        }
+      ],
+      "audits": [
+        {
+          "project": "bulbaswap",
+          "firm": "SolidProof",
+          "date": "2024-06-22",
+          "url": "https://app.trustblock.run/audit/0ccc7d5f-870d-4b73-bc00-795f1b085e48"
+        }
+      ],
+      "otherAuditsOnSameProject": 0,
+      "note": "Audits listed are those whose scope on Trustblock names this exact address."
+    },
+    "deployedAfterLatestAudit": false
+  }
+]

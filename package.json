@@ -1,0 +1,9 @@
+{
+  "name": "solana-program-audit-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "For a Solana program ID: upgrade authority, verified-build status and published audits, as JSON.",
+  "bin": { "solana-program-audit-check": "check.js" },
+  "engines": { "node": ">=18" },
+  "scripts": { "check": "node check.js" }
+}
